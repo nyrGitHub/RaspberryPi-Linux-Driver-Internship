@@ -1,2 +1,3 @@
 # RaspberryPi-Linux-Driver-Internship
-Recipe for Raspberry Pi Linux driver development study plan
+
+This repository contains the internship materials for Linux driver development on Raspberry Pi.
