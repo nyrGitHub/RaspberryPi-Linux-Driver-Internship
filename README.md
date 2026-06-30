@@ -1,25 +1,25 @@
-# Raspberry Pi Linux Driver Development Internship
-## 树莓派 Linux 驱动开发实习
+# Embedded System Software Engineering Roadmap
+## 嵌入式软硬结合开发进阶指南
 
 ### Overview / 项目概述
-This repository serves as the central hub for a Master's level internship focused on Linux Kernel development and Raspberry Pi driver programming.
-本仓库为嵌入式/Linux方向硕士研究生实习项目，专注于 Linux 内核开发及树莓派驱动编程。
+This repository is aligned with the 'Embedded Job Interview Guide' strategy (烤鸭的嵌入式校招笔记), shifting focus from pure 'Driver Intern' to 'Soft-Hard Integration Software Engineer' (软硬结合开发工程师).
+本项目参考《烤鸭的嵌入式校招笔记》策略，将定位从纯“驱动开发实习”调整为“软硬结合开发工程师”，涵盖 C++、Linux 网络、操作系统及实战项目。
 
-### Study Plan & Timeline / 学习计划与时间轴
+### Structure / 仓库结构
+- `/cplusplus_fundamentals`: Focus on smart pointers, memory management, and RAII for embedded. (C++ 基础、智能指针、RAII、内存管理)
+- `/linux_networking_socket`: Socket programming and multi-threading. (Linux 套接字编程、多线程开发)
+- `/embedded_projects`: The 'High-Performance Gateway' project integrating RPi I/O with C++ data buffering. (树莓派高性网关实战项目)
+- `/os_concepts`: Notes and code demos on deadlocks, memory management, and kernel interaction. (操作系统核心概念、死锁、内存管理、内核交互)
+- `/drivers_and_kernel_theory`: Specialized add-on focusing on Linux Driver development. (Linux 驱动开发与内核理论专项)
 
-| Phase / 阶段 | Duration / 时长 | Focus / 重点 |
-| :--- | :--- | :--- |
-| 1. Foundations | 2 Weeks | Linux Kernel Internals, C/Makefile, Buildroot |
-| 2. RPi Basics | 2 Weeks | RPi Architecture, Device Tree, Bare-metal |
-| 3. Character Drivers | 3 Weeks | Char Device Framework, file_operations |
-| 4. Advanced Topics | 3 Weeks | Interrupts, DMA, Platform Drivers |
+### Roadmap / 学习路线
+1. **C++ for Embedded**: Transitioning from C to Modern C++ (C++11/14/17).
+2. **System Programming**: Deep dive into Linux API, Pthreads, and Socket.
+3. **OS Deep Dive**: Understanding scheduling, virtual memory, and concurrency.
+4. **Integration Projects**: Building systems that bridge the gap between hardware and high-level software.
 
 ### Resources / 资源推荐
+- [烤鸭的嵌入式校招笔记](https://github.com/kaoyaya/embedded-notes) (Reference Strategy)
 - [The Linux Kernel Archives](https://www.kernel.org/)
-- [Linux Device Drivers, 3rd Edition](https://lwn.net/Kernel/LDD3/)
+- [Modern C++ Features](https://en.cppreference.com/)
 - [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
-- [Free Electrons (Bootlin) Training Materials](https://bootlin.com/training/)
-
-### Professional Note / 专业说明
-This program requires a solid foundation in operating systems concepts, proficiency in C programming, and a disciplined approach to kernel-level debugging.
-本项目要求具备扎实的操作系统原理基础、熟练的C语言编程能力，并能以严谨的态度进行内核级调试。
